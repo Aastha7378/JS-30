@@ -39,6 +39,14 @@
 }
 .icon{
     height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.quantity-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
 }
 </style>
 <body>
@@ -47,11 +55,12 @@
         <h2 class="product-title">Boat Headset</h2>
         <p class="Product-price">Price: ₹999</p>
      
-        <div> 
+        <div class="quantity-container"> 
             <img src="./minus.png" class="icon"/>
             <span>1</span>
             <img src="./add-circle.png" class="icon"/>
         </div>
+
         <button class="btn-buy-now">Buy Now</button>
     </div>
 </body>
